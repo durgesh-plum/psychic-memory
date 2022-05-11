@@ -1,5 +1,5 @@
 try:
-    file = open("../orders.txt")
+    file = open("orders.txt")
 except FileNotFoundError as errmsg:
     print("There is an error")
     print(errmsg)
@@ -34,12 +34,12 @@ def append_file(file, order_item):
 
 
 
-open_print_file("../orders.txt")
-write_to_file("../orders.txt", "nuggets")
-write_to_file("../orders.txt", "bread")
-write_to_file("../orders.txt", "juice")
+open_print_file("orders.txt")
+write_to_file("orders.txt", "nuggets")
+write_to_file("orders.txt", "bread")
+write_to_file("orders.txt", "juice")
 #write_to_file("orders.txt", "ice cream")
 
-append_file("../orders.txt", "nuggets")
-append_file("../orders.txt", "beer")
+append_file("orders.txt", "nuggets")
+append_file("orders.txt", "beer")
 
